@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Outlet, useNavigate, useLocation, Navigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { checkUser } from "./Store/userSlice";
-import { Toaster } from "@/components/ui/toaster";
+import { Toaster } from "@/Components/ui/toaster";
 import "./cursor.css"
 function App() {
 

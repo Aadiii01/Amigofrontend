@@ -19,7 +19,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuShortcut,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+} from "@/Components/ui/dropdown-menu";
 
 import { Avatar, User } from "@nextui-org/react";
 import { useDispatch, useSelector } from "react-redux";

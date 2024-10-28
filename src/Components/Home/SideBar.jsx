@@ -6,16 +6,16 @@ import {
   UserRoundPen,
   Settings,
 } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+import { Badge } from "@/Components/ui/badge";
+import { Button } from "@/Components/ui/button";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
+} from "@/Components/ui/card";
+import { Separator } from "@/Components/ui/separator";
 import { Logo } from "@/Utils/Data";
 import { useSelector } from "react-redux";
 

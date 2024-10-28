@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { SignUpForm } from './SignUpForm'
 import SmallFooter from './SmallFooter'
-import { Button } from "@/components/ui/button"
+import { Button } from "@/Components/ui/button"
 import { Logo } from '@/Utils/Data'
 import "../../Styles/CreateAccount.css"
 

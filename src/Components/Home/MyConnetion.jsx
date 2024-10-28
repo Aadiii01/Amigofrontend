@@ -15,7 +15,7 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { unfriendConnection } from "@/Store/connectionSlice";
 import { useToast } from "@/hooks/use-toast"
-import { ToastAction } from "@/components/ui/toast"
+import { ToastAction } from "@/Components/ui/toast"
 
 const capitalizeWords = (str) => {
   return str

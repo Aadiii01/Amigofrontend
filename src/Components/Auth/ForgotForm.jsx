@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Formik, Form } from "formik";
 import { Link } from "react-router-dom";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/Components/ui/button";
 import * as Yup from "yup";
 import { Input } from "@nextui-org/input";
 import "../../Styles/GlassMorphism.css";
@@ -16,7 +16,7 @@ import {
   useDisclosure,
 } from "@nextui-org/react";
 import { useToast } from "@/hooks/use-toast"
-import { ToastAction } from "@/components/ui/toast"
+import { ToastAction } from "@/Components/ui/toast"
 
 const ForgotForm = () => {
   const { toast } = useToast();

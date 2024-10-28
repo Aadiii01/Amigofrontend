@@ -7,17 +7,17 @@ import {
   Settings,
 } from "lucide-react";
 import { useState } from "react";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+import { Badge } from "@/Components/ui/badge";
+import { Button } from "@/Components/ui/button";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Separator } from "@/components/ui/separator";
+} from "@/Components/ui/card";
+import { Sheet, SheetContent, SheetTrigger } from "@/Components/ui/sheet";
+import { Separator } from "@/Components/ui/separator";
 import { useSelector } from "react-redux";
 import { Logo } from "@/Utils/Data";
 

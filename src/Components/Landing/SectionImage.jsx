@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/Components/ui/button";
 import { languageStrings } from "../../Utils/language.js";
 import { Link } from "react-router-dom";
 import { desktop_url, mobile_url } from "@/Utils/Data.jsx";

@@ -2,7 +2,7 @@ import React from 'react'
 import SignInForm from './SignInForm'
 import SmallFooter from './SmallFooter';
 import { Link } from 'react-router-dom'
-import { Button } from "@/components/ui/button"
+import { Button } from "@/Components/ui/button"
 import { Logo } from '@/Utils/Data';
 
 const SignInPage = () => {

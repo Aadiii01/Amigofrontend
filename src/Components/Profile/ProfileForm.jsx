@@ -6,7 +6,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "@/Components/ui/card";
 import { Formik, Form, Field } from "formik";
 import * as Yup from "yup";
 import { Input } from "@nextui-org/input";
@@ -34,7 +34,7 @@ import {
   useDisclosure,
 } from "@nextui-org/react";
 import { useToast } from "@/hooks/use-toast"
-import { ToastAction } from "@/components/ui/toast"
+import { ToastAction } from "@/Components/ui/toast"
 
 const SetProfileSchema = Yup.object().shape({
   gender: Yup.string().required("Gender is required"),

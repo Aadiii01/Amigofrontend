@@ -15,7 +15,7 @@ import { useNavigate } from "react-router-dom";
 import "../../Styles/UserCard.css";
 import { useDispatch } from "react-redux";
 import { useToast } from "@/hooks/use-toast"
-import { ToastAction } from "@/components/ui/toast"
+import { ToastAction } from "@/Components/ui/toast"
 import { sendConnection } from "@/Store/feedSlice";
 
 const UserCard = ({user}) => {

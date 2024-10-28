@@ -6,7 +6,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "@/Components/ui/card";
 import { Formik, Form } from "formik";
 import * as Yup from "yup";
 import { Input } from "@nextui-org/input";
@@ -16,7 +16,7 @@ import "../../Styles/GlassMorphism.css";
 import { useDispatch, useSelector } from "react-redux";
 import { changePassword } from "@/Store/userSlice";
 import { useToast } from "@/hooks/use-toast";
-import { ToastAction } from "@/components/ui/toast";
+import { ToastAction } from "@/Components/ui/toast";
 
 const validationSchema = Yup.object({
   oldpassword: Yup.string().required("Old Password is required"),

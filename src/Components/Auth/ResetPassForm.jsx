@@ -5,7 +5,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "@/Components/ui/card";
 import { Formik, Form } from "formik";
 import * as Yup from "yup";
 import { Input } from "@nextui-org/input";
@@ -24,7 +24,7 @@ import {
 } from "@nextui-org/react";
 import { useDispatch } from "react-redux";
 import { useToast } from "@/hooks/use-toast"
-import { ToastAction } from "@/components/ui/toast"
+import { ToastAction } from "@/Components/ui/toast"
 
 const ResetPassForm = () => {
   const { id, token } = useParams();

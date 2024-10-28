@@ -6,7 +6,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "@/Components/ui/card";
 import { Formik, Form } from "formik";
 import * as Yup from "yup";
 import { Input } from "@nextui-org/input";
@@ -15,7 +15,7 @@ import { EyeFilledIcon } from "@/Utils/Icon.jsx";
 import "../../Styles/GlassMorphism.css";
 import { useDispatch, useSelector } from "react-redux";
 import { useToast } from "@/hooks/use-toast";
-import { ToastAction } from "@/components/ui/toast";
+import { ToastAction } from "@/Components/ui/toast";
 import { deleteProfile } from "@/Store/userSlice";
 import {
   Modal,

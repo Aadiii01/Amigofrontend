@@ -3,7 +3,7 @@ import {imagesArray,IndianPartners,GlobalFriends,GlobalPartners} from "../../Uti
 import {languageStrings} from "../../Utils/language.js"
 import { useLanguage } from "@/context/LanguageContext.jsx";
 import "../../Styles/SectionTop.css";
-import {Select,SelectContent,SelectGroup,SelectItem,SelectTrigger,SelectValue,} from "@/components/ui/select";
+import {Select,SelectContent,SelectGroup,SelectItem,SelectTrigger,SelectValue,} from "@/Components/ui/select";
 
 export function SelectDemo({ placeholder, options, value, onChange }) {
   return (

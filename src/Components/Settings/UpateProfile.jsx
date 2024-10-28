@@ -6,7 +6,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "@/Components/ui/card";
 import { Formik, Form, Field } from "formik";
 import * as Yup from "yup";
 import { Input } from "@nextui-org/input";
@@ -19,7 +19,7 @@ import { GalleryIcon } from "@/Utils/Icon";
 import { Image } from "@nextui-org/image";
 import { ScrollShadow } from "@nextui-org/react";
 import { useToast } from "@/hooks/use-toast";
-import { ToastAction } from "@/components/ui/toast";
+import { ToastAction } from "@/Components/ui/toast";
 import {
   Modal,
   ModalContent,

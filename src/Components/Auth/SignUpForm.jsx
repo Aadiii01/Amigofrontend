@@ -6,7 +6,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "@/Components/ui/card";
 import { Formik, Form } from "formik";
 import * as Yup from "yup";
 import { Input } from "@nextui-org/input";

@@ -4,7 +4,7 @@ import { useLanguage } from "@/context/LanguageContext";
 import { Link } from "react-router-dom";
 import { Logo } from "@/Utils/Data.jsx";
 import "../../Styles/Header.css";
-import {Select,SelectContent,SelectGroup,SelectItem,SelectTrigger,SelectValue,} from "@/components/ui/select";
+import {Select,SelectContent,SelectGroup,SelectItem,SelectTrigger,SelectValue,} from "@/Components/ui/select";
 
 export function SelectDemo({ onLanguageChange }) {
   return (
