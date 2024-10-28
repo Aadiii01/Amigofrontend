@@ -89,6 +89,7 @@ const TimeExpire = () => {
           </div>
         </div>
       </div>
+      <div className="bg-black h-[80px] w-full"></div>
       <div className="mt-20">
         <SmallFooter
           colorfooter={"bg-black"}

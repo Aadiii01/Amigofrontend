@@ -1,6 +1,6 @@
 .setfile {
   width: 100%;
-  height: calc(100vh - 125px);
+  height: calc(100vh - 180px);
 }
 
 .text{
@@ -10,7 +10,7 @@
 
 .card-image {
   width: 100%;
-  height: calc(100vh - 125px);
+  height: calc(100vh - 180px);
   object-fit: cover;
 }
 

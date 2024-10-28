@@ -1,10 +1,10 @@
 import { Logo } from "@/Utils/Data";
-import "../Styles/EmailVerified.css"
+import "../Styles/EmailVerified.css";
 import React, { useState, useEffect } from "react";
 import { desktopImage, MobileImage } from "@/Utils/Data.jsx";
-import SmallFooter from "../Components/Auth/SmallFooter"
+import SmallFooter from "../Components/Auth/SmallFooter";
 import { Button } from "@nextui-org/react";
-import "../Styles/blink.css"
+import "../Styles/blink.css";
 
 const EmailVerified = () => {
   const [imageSrc, setImageSrc] = useState(desktopImage);
@@ -65,10 +65,11 @@ const EmailVerified = () => {
                   <div className="mainheading">
                     <div>
                       <h1 className="h1heading font-[NetflixB]">
-                      Email Verified Successfully!
+                        Email Verified Successfully!
                       </h1>
                       <p className="pheading font-[NetflixR]">
-                      Welcome to Amigo! Start connecting and making new connection today.
+                        Welcome to Amigo! Start connecting and making new
+                        connection today.
                       </p>
                     </div>
                   </div>
@@ -76,12 +77,12 @@ const EmailVerified = () => {
                 <div className="secondheading">
                   <p className="font-[Netflix] text-white text-[16px]"></p>
                   <div className="mt-4">
-                  <Button
-                    className="bg-gradient-to-r from-sky-500 via-purple-800 to-red-600 font-[NetflixL]  text-white w-[150px]"
-                    radius="full"
-                  >
-                    Congratulations
-                  </Button>
+                    <Button
+                      className="bg-gradient-to-r from-sky-500 via-purple-800 to-red-600 font-[NetflixL]  text-white w-[150px]"
+                      radius="full"
+                    >
+                      Congratulations
+                    </Button>
                   </div>
                 </div>
               </div>
@@ -95,6 +96,7 @@ const EmailVerified = () => {
           </div>
         </div>
       </div>
+      <div className="bg-black h-[80px] w-full"></div>
       <div className="mt-20">
         <SmallFooter
           colorfooter={"bg-black"}
