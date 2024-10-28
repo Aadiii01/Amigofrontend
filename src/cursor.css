@@ -1,0 +1,40 @@
+.cursor {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  /* border: 1px solid #d90a2c; */
+  border: 1px solid #fccd04;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  opacity: 0.5;
+  transform: translate(-50%, -50%);
+  transition: all 0.1s ease-out;
+  z-index: 9999;
+}
+
+.cursor2 {
+  position: fixed;
+  width: 6px;
+  height: 6px;
+  /* background-color: #d90a2c; */
+  background-color: #fccd04;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition:
+    width 0.2s,
+    height 0.2s,
+    background-color 0.2s;
+  z-index: 9999;
+}
+
+.cursor2.large {
+  width: 15px; /* Increased size */
+  height: 15px; /* Increased size */
+  /* background-color: #ec8697;  */
+  background-color: #f2d543;
+}
