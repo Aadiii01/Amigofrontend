@@ -19,7 +19,7 @@ const SignInPage = () => {
         </Link>
       </div>
       <SignInForm/>
-      <div className='mt-16 lg:mt-0'>
+      <div className='mt-auto'>
         <SmallFooter colorfooter={"bg-[#f3f3f3]"} coptextcol={"text-black"} acol={"text-[#888]"}  hacol={"hover:text-[#111]"}/>
       </div>
     </div>

@@ -38,3 +38,9 @@
   /* background-color: #ec8697;  */
   background-color: #f2d543;
 }
+
+@media (max-width: 768px) {
+  .cursor, .cursor2 {
+    display: none;
+  }
+}
