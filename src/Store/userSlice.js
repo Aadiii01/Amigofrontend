@@ -113,11 +113,9 @@ export const uploadPhotos = createAsyncThunk(
 export const uploadAvatar = createAsyncThunk(
   "uploadAvatar ",
   async (file, { rejectWithValue }) => {
-    console.log(file)
     try {
       const formData = new FormData();
       formData.append("avatar", file);
-      console.log(formData)
       const response = await axios.post(
         BACKEND_URL + "/api/v1/user/avatar",
         formData,
@@ -128,10 +126,8 @@ export const uploadAvatar = createAsyncThunk(
           },
         }
       );
-      console.log(response.data)
       return response.data;
     } catch (error) {
-      console.log(error)
       return rejectWithValue(error.response.data);
     }
   }
