@@ -47,10 +47,8 @@ export const logoutUser = createAsyncThunk(
           withCredentials: true,
         }
       );
-      console.log(response.data)
       return response.data;
     } catch (error) {
-      console.log(error)
       return rejectWithValue(error.response.data);
     }
   }
